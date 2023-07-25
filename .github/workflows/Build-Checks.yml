@@ -1,4 +1,4 @@
-nme: Checks
+name: Checks
 
 on:
   push:
