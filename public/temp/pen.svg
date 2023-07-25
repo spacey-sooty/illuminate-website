@@ -57,13 +57,17 @@
        cx="27.008495"
        cy="60.371929"
        rx="4.7662053"
-       ry="4.3995738" />
+       ry="4.3995738"
+       inkscape:export-xdpi="96.036201"
+       inkscape:export-ydpi="96.036201" />
     <rect
        style="fill:#b59f8a;fill-opacity:0.254902;stroke:#000000;stroke-width:1.2"
        id="rect12"
        width="4.1551528"
        height="72.592964"
        x="24.442076"
-       y="64.038239" />
+       y="64.038239"
+       inkscape:export-xdpi="96.036201"
+       inkscape:export-ydpi="96.036201" />
   </g>
 </svg>
