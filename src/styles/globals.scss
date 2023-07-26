@@ -32,3 +32,12 @@ p {
     color: darkorchid;
   }
 }
+
+.link {
+  @include hero;
+  color: deeppink;
+  margin: 15px;
+  font-size: 35px;
+  left: 1060px;
+  text-decoration: none;
+}
