@@ -2,15 +2,14 @@ import styles from '@/styles/pages/home.module.scss'
 import Image from 'next/image'
 
 export default function Home() {
-  var h = 81.859 * 2;
-  var w = 10.732 * 2;
+  var h = 81.859 * 5;
+  var w = 10.732 * 5;
   return (
     <main>
       <div>
         <h1> StationAIry! </h1>
-        <Image src="/temp/pen.png" alt="pen" width={w} height={h} className={styles.image}/>
-        <p className='hero'> StationAIry are the creators of the MechaPen a high quality pen which warns you when
-        you are running low on ink! </p>
+        <Image src="/images/pen.jpg" alt="pen" width={w} height={h} className={styles.image}/>
+        <p className='hero'> StationAIry are the creators of the MechaPen a high quality pen which warns you when you are running low on ink! </p>
       </div>
     </main>
   )
