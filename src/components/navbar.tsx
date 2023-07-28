@@ -5,7 +5,7 @@ import styles from "@/styles/components/navbar.module.scss"
 const navbarData = {
   pages: [
     {
-      title: "About-Us",
+      title: "About Us",
       url: "/about-us",
     },
     {
