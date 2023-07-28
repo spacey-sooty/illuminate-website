@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main>
       <div>
-        <h1> StationAIry! </h1>
-        <Image src="/images/pen.jpg" alt="pen" width={w} height={h} className={styles.image}/>
+        <h1> StationAIry ! </h1>
+        <Image src="/temp/pen.jpg" alt="pen" width={w} height={h} className={styles.image}/>
         <p className='hero'> StationAIry are the creators of the MechaPen a high quality pen which warns you when you are running low on ink! </p>
       </div>
     </main>

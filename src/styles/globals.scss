@@ -1,6 +1,13 @@
+@import url(https://db.onlinewebfonts.com/c/3a775cc0fc167a7000d81c790839b807?family=Moonbeam+Regular);
+
 h1 {
   text-align: center;
-  font-size: 450%;
+  font-size: 400%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 200%;
 }
 
 p {
@@ -22,20 +29,20 @@ p {
 }
 
 :root {
-  background-color: aqua;
+  background-color: rgb(206, 179, 224);
 
   h1 {
-    color: darkgreen;
+    color: rgb(38, 57, 233);
+    font-family: "Moonbeam Regular";
   }
 
   p {
-    color: darkorchid;
+    color: rgb(108, 37, 207);
   }
 }
 
 .link {
   @include hero;
-  color: deeppink;
   margin: 15px;
   font-size: 35px;
   left: 1060px;
