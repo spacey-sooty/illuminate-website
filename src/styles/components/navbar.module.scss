@@ -17,7 +17,17 @@
     color: rgb(195, 75, 239);
     margin: 10px;
     font-size: 45px;
-    position: relative;
-    left: 1040px;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+  }
+
+  .link1 {
+    color: rgb(195, 75, 239);
+    margin: 10px;
+    font-size: 45px;
+    position: absolute;
+    right: 200px;
+    top: -10px;
   }
 }

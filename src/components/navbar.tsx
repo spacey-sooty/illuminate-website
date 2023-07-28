@@ -2,18 +2,18 @@
 import Link from "next/link"
 import styles from "@/styles/components/navbar.module.scss"
 
-const navbarData = {
-  pages: [
-    {
-      title: "About Us",
-      url: "/about-us",
-    },
-    {
-      title: "Products",
-      url: "/products",
-    },
-  ]
-}
+// const navbarData = {
+//   pages: [
+//     {
+//       title: "About Us",
+//       url: "/about-us",
+//     },
+//     {
+//       title: "Products",
+//       url: "/products",
+//     },
+//   ]
+// }
 
 export default function Navbar() {
   return (
@@ -23,13 +23,8 @@ export default function Navbar() {
           Home
         </Link>
       </div>
-      <div>
-        {navbarData.pages.map((page) => (
-          <Link key={page.title} href={page.url} className={styles.link}>
-            {page.title}
-          </Link>
-        ))}
-      </div>
+      <Link href="/about-us" className={styles.link1}> About Us </Link>
+      <Link href="/products" className={styles.link}> Products </Link>
     </div>
   )
 }
