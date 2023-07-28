@@ -15,7 +15,7 @@ export default function About() {
         you have left writing! This will greatly reduce the stress of the user along with enabling them to be more sustainable by purchasing
         ink refills instead of buying a new pen! </p>
         <h1> Where can you buy this? </h1>
-        <p className=""> This pen will be coming to all good stationary stores within WA along with being purchasable online <a className="link" href="/products"> here</a>! </p>
+        <p className=""> This pen will be coming to all good stationary stores within WA along with soon being purchasable online <a className="link" href="/products"> here</a>! </p>
       </div>
     </main>
   )
