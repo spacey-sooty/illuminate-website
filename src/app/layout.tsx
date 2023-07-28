@@ -20,7 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        {/* <link href="https://db.onlinewebfonts.com/c/3a775cc0fc167a7000d81c790839b807?family=Moonbeam+Regular" rel="stylesheet"/> */}
       </Head>
       <body className={inter.className}>
           <Navbar />

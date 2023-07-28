@@ -2,19 +2,6 @@
 import Link from "next/link"
 import styles from "@/styles/components/navbar.module.scss"
 
-// const navbarData = {
-//   pages: [
-//     {
-//       title: "About Us",
-//       url: "/about-us",
-//     },
-//     {
-//       title: "Products",
-//       url: "/products",
-//     },
-//   ]
-// }
-
 export default function Navbar() {
   return (
     <div className={styles.navbar}>
