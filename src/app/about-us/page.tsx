@@ -17,7 +17,6 @@ export default function About() {
         <h1> Where can you buy this? </h1>
         <p className=""> This pen will be coming to all good stationary stores within WA along with being purchasable online <a className="link" href="/products"> here</a>! </p>
       </div>
-
     </main>
   )
 }
